@@ -6,7 +6,7 @@ import { getFunctions } from "firebase/functions";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-    apiKey: "AIzaSyA0h1gcC5njK4y4L8cPMWBO-F37j9EzurY",
+    apiKey: process.env.FIREBASE_API_KEY,
     authDomain: "real-time-translation-chat-app.firebaseapp.com",
     projectId: "real-time-translation-chat-app",
     storageBucket: "real-time-translation-chat-app.appspot.com",
