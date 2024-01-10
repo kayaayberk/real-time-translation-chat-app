@@ -5,7 +5,7 @@ import Link from "next/link";
 const tiers = [
   {
     name: "Starter",
-    id: "starter_ID",
+    id: null,
     href: "#",
     priceMonthly: null,
     description: "Get Chatting Right Away with Anyone, in any Language",
@@ -19,9 +19,9 @@ const tiers = [
   },
   {
     name: "Pro",
-    id: "si_OnlycsLNQYbMVzV",
+    id: "pro",
     href: "#",
-    priceMonthly: "zł 14.99",
+    priceMonthly: "zł 9.99",
     description: "Unlock the Full Potential with Pro!",
     features: [
       "Unlimited Messages in Chats",
