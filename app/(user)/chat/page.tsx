@@ -1,11 +1,15 @@
 import ChatList from "@/components/ChatList";
 
-function ChatsPage() {
-  return (
-    <div>
-      {/* Char Permission chat */}
+type Props = {
+  params: {};
+  searchParams: {
+    error: string;
+  };
+};
 
-      {/* ChatList */}
+function ChatsPage({ searchParams: { error } }: Props) {
+  return (
+    <div className="" >
       <ChatList />
     </div>
   );
