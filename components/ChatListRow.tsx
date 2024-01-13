@@ -5,12 +5,13 @@ import { Message, limitedSortedMessagesRef } from "@/lib/converters/Message";
 import UserAvatar from "./UserAvatar";
 import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
+import { useLanguageStore } from "@/store/store";
 
 function ChatListRow({ chatId }: { chatId: string }) {
   const [messages, loading, error] = useCollectionData<Message>(
     limitedSortedMessagesRef(chatId)
   );
-
+  const language = useLanguageStore((state) => state.language);
   const { data: session } = useSession();
   const router = useRouter();
 
@@ -22,7 +23,7 @@ function ChatListRow({ chatId }: { chatId: string }) {
     <div
       key={chatId}
       onClick={() => router.push(`/chat/${chatId}`)}
-      className="flex p-5 items-center space-x-2 cursor-pointer hover:bg-gray-100 dark:hover:bg-slate-700"
+      className="flex p-5 items-center space-x-2 cursor-pointer hover:bg-gray-100 hover:rounded-2xl dark:hover:bg-slate-700 dark:hover:bg-opacity-20 "
     >
       <UserAvatar
         name={message?.user.name || session?.user.name}
@@ -36,7 +37,7 @@ function ChatListRow({ chatId }: { chatId: string }) {
             [message?.user.name || session?.user.name].toString().split(" ")[0]}
         </p>
         <p className="text-gray-400 line-clamp-1">
-          {message?.translated?.["en"] || "Get the conversation started!"}
+          {message?.translated?.[language] || "Get the conversation started!"}
         </p>
       </div>
 
