@@ -3,6 +3,7 @@ import { Subscription } from "@/types/Subscription";
 
 export type LanguagesSupported =
   | "en"
+  | "tr"
   | "pl"
   | "de"
   | "fr"
@@ -16,6 +17,7 @@ export type LanguagesSupported =
 
 export const LanguagesSupportedMap: Record<LanguagesSupported, string> = {
   en: "English",
+  tr: "Turkish",
   pl: "Polish",
   de: "German",
   fr: "French",
