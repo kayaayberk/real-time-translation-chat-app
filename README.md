@@ -5,7 +5,8 @@
   <h1 align="center">Chat Up</h1>
 
   <p align="center">
-Chat Up is web a app that provides built-in real-time translation that helps people to chat in any supported language. It's built to make life easier for small friend groups that have a language barrier and is currently being used by +15 people for fun.    <br />
+Chat Up is web a app that provides <ins>built-in real-time translation</ins> that helps people to chat in any supported language. It can easily translate multiple languages in both <ins>single and group chats</ins> allowing everyone to easily communicate. It's built for both experimental purposes and to make life easier for small friend groups that have a language barrier and is currently being used by ~15 people for fun.
+    <br />
     <br />
     <br />
     <a href="https://chat-up-pi.vercel.app/">View LIVE</a>
@@ -31,7 +32,7 @@ npm install
 ```bash
 npm run dev
 ```
-In your .env.local file
+### In your .env.local file
 ```js
 // For database interaction and configurations
 FIREBASE_PROJECT_ID='YOUR FIREBASE_PROJECT_ID'
@@ -46,7 +47,7 @@ GOOGLE_CLIENT_SECRET='YOUR GOOGLE_CLIENT_SECRET'
 STRIPE_SECRET_KEY='YOUR STRIPE_SECRET_KEY'
 ```
 
-### 🔑 For credentials, refer to:
+### 🔑 For credentials, refer to
 * [Firebase](console.firebase.google.com)
 * [Google Cloud](console.cloud.google.com)
 * [Stripe](https://dashboard.stripe.com/)
@@ -54,7 +55,7 @@ STRIPE_SECRET_KEY='YOUR STRIPE_SECRET_KEY'
 
 <br/>
 
-## For Test Purposes
+## 🤝 For Test Purposes
 If you don't want to use your personal Gmail for logging in, use:
 ```bash
 ## Login:
@@ -78,7 +79,7 @@ Random
 
 
 
-### Built With
+### 🧱 Built With
 
 * <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
 * <img src="https://img.shields.io/badge/next%20js-FFFFFF?style=for-the-badge&logo=nextdotjs&logoColor=black" />
@@ -89,7 +90,7 @@ Random
 * <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
 
 
-### Other technologies and methods
+### 🛠️ Other technologies and methods
 * [Stripe Payments](https://stripe.com/docs)
   * [Stripe Webhooks](https://stripe.com/docs/webhooks)
   * [Stripe Portal Link](https://stripe.com/docs/customer-management/portal-deep-links)
