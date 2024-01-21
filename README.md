@@ -5,52 +5,77 @@
   <h1 align="center">Chat Up</h1>
 
   <p align="center">
-    Chat Up is a project built for experimental learning process and personal use. It has a built-in real-time translation that helps people to chat in any supported language.
+Chat Up is web a app that provides built-in real-time translation that helps people to chat in any supported language. It's built to make life easier for small friend groups that have a language barrier and is currently being used by +15 people for fun.    <br />
     <br />
     <br />
-    <br />
-    <a href="https://chat-up-pi.vercel.app/">View Demo</a>
+    <a href="https://chat-up-pi.vercel.app/">View LIVE</a>
     ·
     <a href="https://github.com/kayaayberk/real-time-translation-chat-app/issues">Report Bug</a>
   </p>
 </div>
 
-## Installation & Setup
+## ⚙️ Installation & Setup
 
-Clone the repository
+### Clone the repository
 ```bash
-#HTTPS
+## HTTPS
 git clone https://github.com/kayaayberk/real-time-translation-chat-app.git
-#SSH
+## SSH
 git clone git@github.com:kayaayberk/real-time-translation-chat-app.git
 ```
-Install packages and dependencies
+### Install packages and dependencies
 ```bash
 npm install
 ```
-Run on your localhost
+### Run on your localhost
 ```bash
 npm run dev
 ```
 In your .env.local file
 ```js
+// For database interaction and configurations
 FIREBASE_PROJECT_ID='YOUR FIREBASE_PROJECT_ID'
 FIREBASE_CLIENT_EMAIL='YOUR FIREBASE_CLIENT_EMAIL'
 FIREBASE_PRIVATE_KEY='YOUR FIREBASE_PRIVATE_KEY'
-________________________________________________
 
+// For Auth purposes
 GOOGLE_CLIENT_ID='YOUR GOOGLE_CLIENT_ID'
 GOOGLE_CLIENT_SECRET='YOUR GOOGLE_CLIENT_SECRET'
-________________________________________________
 
+// For Stripe payments and billing & Subcription bill generation
 STRIPE_SECRET_KEY='YOUR STRIPE_SECRET_KEY'
 ```
 
-### For credentials, refer to:
+### 🔑 For credentials, refer to:
 * [Firebase](console.firebase.google.com)
 * [Google Cloud](console.cloud.google.com)
 * [Stripe](https://dashboard.stripe.com/)
 * [Next.js deployment documentation](https://nextjs.org/docs/deployment)
+
+<br/>
+
+## For Test Purposes
+If you don't want to use your personal Gmail for logging in, use:
+```bash
+## Login:
+devtester474@gmail.com
+
+## Password:
+Zz123qwe123
+```
+To test out Stripe payments and billing, use:
+
+```bash
+## Test credit card
+4242 4242 4242 4242
+## DATE:
+24/42
+## CVV:
+424
+## Rest:
+Random
+```
+
 
 
 ### Built With
