@@ -5,7 +5,7 @@
   <h1 align="center">Chat Up</h1>
 
   <p align="center">
-Chat Up is web a app that provides <ins>built-in real-time translation</ins> that helps people to chat in any supported language. It can easily translate multiple languages in both <ins>single and group chats</ins> allowing everyone to easily communicate. It's built for both experimental purposes and to make life easier for small friend groups that have a language barrier and is currently being used by ~15 people for fun.
+Chat Up is a web app that provides <ins>built-in real-time translation</ins> that helps people to chat in any supported language. It can easily translate multiple languages in both <ins>single and group chats</ins> allowing everyone to easily communicate. It's built for both experimental purposes and to make life easier for small friend groups that have a language barrier and is currently being used by ~15 people for fun.
     <br />
     <br />
     <br />
