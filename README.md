@@ -10,31 +10,31 @@ Chat Up is web a app that provides <ins>built-in real-time translation</ins> tha
     <br />
     <br />
     <a href="https://chat-up-pi.vercel.app/">View LIVE</a>
-    ·
+    ~
     <a href="https://github.com/kayaayberk/real-time-translation-chat-app/issues">Report Bug</a>
   </p>
 </div>
 
 ## ⚙️ Installation & Setup
 
-### Clone the repository
+#### Clone the repository
 ```bash
 ## HTTPS
 git clone https://github.com/kayaayberk/real-time-translation-chat-app.git
 ## SSH
 git clone git@github.com:kayaayberk/real-time-translation-chat-app.git
 ```
-### Install packages and dependencies
+#### Install packages and dependencies
 ```bash
 npm install
 ```
-### Run on your localhost
+#### Run on your localhost
 ```bash
 npm run dev
 ```
-### In your .env.local file
+#### In your .env.local file
 ```js
-// For database interaction and configurations
+// For database interactions and configurations
 FIREBASE_PROJECT_ID='YOUR FIREBASE_PROJECT_ID'
 FIREBASE_CLIENT_EMAIL='YOUR FIREBASE_CLIENT_EMAIL'
 FIREBASE_PRIVATE_KEY='YOUR FIREBASE_PRIVATE_KEY'
@@ -43,20 +43,18 @@ FIREBASE_PRIVATE_KEY='YOUR FIREBASE_PRIVATE_KEY'
 GOOGLE_CLIENT_ID='YOUR GOOGLE_CLIENT_ID'
 GOOGLE_CLIENT_SECRET='YOUR GOOGLE_CLIENT_SECRET'
 
-// For Stripe payments and billing & Subcription bill generation
+// For Stripe payments & Subcription bill generation
 STRIPE_SECRET_KEY='YOUR STRIPE_SECRET_KEY'
 ```
 
 ### 🔑 For credentials, refer to
-* [Firebase](console.firebase.google.com)
-* [Google Cloud](console.cloud.google.com)
-* [Stripe](https://dashboard.stripe.com/)
-* [Next.js deployment documentation](https://nextjs.org/docs/deployment)
-
-<br/>
+- [Firebase](console.firebase.google.com)
+- [Google Cloud](console.cloud.google.com)
+- [Stripe](https://dashboard.stripe.com/)
+- [Next.js deployment documentation](https://nextjs.org/docs/deployment)
 
 ## 🤝 For Test Purposes
-If you don't want to use your personal Gmail for logging in, use:
+#### If you don't want to use your personal Gmail for logging in, use:
 ```bash
 ## Login:
 devtester474@gmail.com
@@ -64,7 +62,7 @@ devtester474@gmail.com
 ## Password:
 Zz123qwe123
 ```
-To test out Stripe payments and billing, use:
+#### To test out Stripe payments and billing, use:
 
 ```bash
 ## Test credit card
@@ -77,31 +75,36 @@ To test out Stripe payments and billing, use:
 Random
 ```
 
+## 🧱 Tech Stack & Features
+### Frameworks & Libraries & Languages
+- [Next.js](https://nextjs.org/)
+- [React](https://react.dev/)
+- [Typescript](https://www.typescriptlang.org/)
+- [NextAuth.js](https://next-auth.js.org/)
+- [Zustand](https://github.com/pmndrs/zustand)
+- [Zod](https://github.com/colinhacks/zod)
 
+### Platforms
+- [Vercel](https://vercel.com/)
+- [Firebase](https://firebase.google.com/)
+  - Firebase Rules
+  - Firebase Functions
+  - Firebase Extensions
+- [Google Cloud](https://cloud.google.com/)
+  - Google Auth Provider
+- [Stripe](https://stripe.com/docs)
+  - Stripe Webhooks
+  - Stripe Portal Link
 
-### 🧱 Built With
+### UI
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Shadcn/ui](https://ui.shadcn.com/)
+- [Lucide](https://lucide.dev/)
 
-* <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-* <img src="https://img.shields.io/badge/next%20js-FFFFFF?style=for-the-badge&logo=nextdotjs&logoColor=black" />
-* <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
-* <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-* <img src="https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white" />
-* <img src="https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black" />
-* <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
-
-
-### 🛠️ Other technologies and methods
-* [Stripe Payments](https://stripe.com/docs)
-  * [Stripe Webhooks](https://stripe.com/docs/webhooks)
-  * [Stripe Portal Link](https://stripe.com/docs/customer-management/portal-deep-links)
-* [Next Auth](https://next-auth.js.org/)
-* [Firebase Rules](https://firebase.google.com/docs/rules)
-* [Zod](https://github.com/colinhacks/zod)
-* [Custom hooks](https://react.dev/learn/reusing-logic-with-custom-hooks)
-* [Zustand](https://github.com/pmndrs/zustand)
-* [Firestore Translation](https://extensions.dev/extensions/firebase/firestore-translate-text)
-* Server Actions
-* Protected Routes
+### Other Technologies and Methods
+- Custom hooks
+- Server Actions
+- Protected Routes
 
 
 
