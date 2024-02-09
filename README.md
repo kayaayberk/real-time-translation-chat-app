@@ -1,7 +1,6 @@
 <div align="center">
   <img src="https://github.com/kayaayberk/real-time-translation-chat-app/assets/136496255/549a85ce-0b66-4f60-9b0a-8e304e56eda7" alt="Logo" />
   <h1 align="center">Chat Up</h1>
-![Github-chatup](https://github.com/kayaayberk/real-time-translation-chat-app/assets/136496255/549a85ce-0b66-4f60-9b0a-8e304e56eda7)
 
   <p align="center">
 Chat Up is a web app that provides <ins>built-in real-time translation</ins> that helps people to chat in any supported language. It can easily translate multiple languages in both <ins>single and group chats</ins> allowing everyone to easily communicate. It's built for both experimental purposes and to make life easier for small friend groups that have a language barrier and is currently being used by ~15 people for fun.
