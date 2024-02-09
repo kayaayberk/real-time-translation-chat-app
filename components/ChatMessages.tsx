@@ -42,13 +42,13 @@ function ChatMessages({
           <MessageCircleIcon className="w-10 h-10" />
 
           <h2>
-            <span className="font-bold">Invite a friend</span>
+            <span className="font-bold">Invite a friend</span>{' '}
             <span className="font-bold">
               Send your first message in ANY language
             </span>{" "}
             below to get started!
           </h2>
-          <p>The AI will auto-detect & translate it all for you!</p>
+          <p>We will auto-detect & translate it all for you!</p>
         </div>
       )}
 
