@@ -59,8 +59,8 @@ function ChatMessages({
             <div
               className={`flex flex-col w-96 relative space-y-2 p-4 overflow-auto whitespace-normal mx-2 rounded-lg ${
                 isSender
-                  ? "ml-auto bg-violet-600 text-white rounded-br-none"
-                  : "bg-gray-100 dark:bg-slate-700 dark:text-gray-100 rounded-bl-none"
+                  ? "ml-auto bg-green-600 text-white rounded-br-none"
+                  : "bg-gray-300 dark:bg-slate-700 dark:text-gray-100 rounded-bl-none"
               }`}
             >
               <p
