@@ -1,6 +1,5 @@
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="https://github.com/kayaayberk/real-time-translation-chat-app/assets/136496255/5aca68f6-8e4f-44a5-bcc2-59255bc00af1" alt="Logo" width="640" height="340">
+  <a href="https://github.com/kayaayberk/real-time-translation-chat-app/assets/136496255/031cc9e1-28e4-439a-9ec7-63dd5d6030da" alt="Logo" width="640" height="340">
   </a>
   <h1 align="center">Chat Up</h1>
 
