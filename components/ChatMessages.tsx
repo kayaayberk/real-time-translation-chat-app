@@ -57,7 +57,7 @@ function ChatMessages({
         return (
           <div key={message.id} className="flex my-2 items-end">
             <div
-              className={`flex flex-col relative space-y-2 p-4 w-fit line-clamp-1 mx-2 rounded-lg ${
+              className={`flex flex-col w-96 relative space-y-2 p-4 overflow-auto whitespace-normal mx-2 rounded-lg ${
                 isSender
                   ? "ml-auto bg-violet-600 text-white rounded-br-none"
                   : "bg-gray-100 dark:bg-slate-700 dark:text-gray-100 rounded-bl-none"
@@ -70,8 +70,8 @@ function ChatMessages({
               >
                 {message.user.name.split(" ")[0]}
               </p>
-              <div className="flex space-x-2">
-                <p>{message.translated?.[language] || message.input}</p>
+              <div className="space-x-2">
+                <p className="whitespace-normal break-words">{message.translated?.[language] || message.input}</p>
                 {!message.translated && <LoadingSpinner />}
               </div>
             </div>

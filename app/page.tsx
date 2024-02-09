@@ -16,7 +16,7 @@ export default async function Home() {
             <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
               You speak your language, they speak theirs.{" "}
               <span className="text-indigo-600 dark:text-indigo-500">
-                Let AI handle the translation!
+                Let us handle the translation!
               </span>
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">

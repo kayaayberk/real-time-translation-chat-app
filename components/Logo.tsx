@@ -1,7 +1,5 @@
-import LogoImage from "@logos/ChatWithAnyoneBlack.svg";
 import Link from "next/link";
 import { AspectRatio } from "./ui/aspect-ratio";
-import Image from "next/image";
 
 function Logo() {
   return (
@@ -11,12 +9,7 @@ function Logo() {
           ratio={16 / 9}
           className="flex items-center justify-center"
         >
-          <Image
-            priority
-            src={LogoImage}
-            alt="Chat with anyone logo"
-            className="dark:filter dark:invert"
-          />
+          <h1 className="text-4xl font-extrabold">Chat Up</h1>
         </AspectRatio>
       </div>
     </Link>
