@@ -1,6 +1,5 @@
 <div align="center">
-  <a href="https://github.com/kayaayberk/real-time-translation-chat-app/assets/136496255/031cc9e1-28e4-439a-9ec7-63dd5d6030da" alt="Logo" width="640" height="340">
-  </a>
+  <img src="https://github.com/kayaayberk/real-time-translation-chat-app/assets/136496255/549a85ce-0b66-4f60-9b0a-8e304e56eda7" alt="Logo" />
   <h1 align="center">Chat Up</h1>
 
   <p align="center">
