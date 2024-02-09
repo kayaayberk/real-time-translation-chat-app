@@ -3,31 +3,29 @@ import { Subscription } from "@/types/Subscription";
 
 export type LanguagesSupported =
   | "en"
-  | "tr"
   | "pl"
   | "de"
   | "fr"
   | "es"
+  | "tr"
   | "hi"
   | "ja"
   | "la"
   | "ru"
-  | "zh"
-  | "ar";
+  | "zh";
 
 export const LanguagesSupportedMap: Record<LanguagesSupported, string> = {
   en: "English",
-  tr: "Turkish",
   pl: "Polish",
   de: "German",
   fr: "French",
   es: "Spanish",
+  tr: "Turkish",
   hi: "Hindi",
   ja: "Japanese",
   la: "Latin",
   ru: "Russian",
   zh: "Manadarin",
-  ar: "Arabic",
 };
 
 const LANGUAGES_IN_FREE = 2;
