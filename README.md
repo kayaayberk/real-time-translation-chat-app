@@ -52,14 +52,7 @@ STRIPE_SECRET_KEY='YOUR STRIPE_SECRET_KEY'
 - [Next.js deployment documentation](https://nextjs.org/docs/deployment)
 
 ## 🤝 For Test Purposes
-#### If you don't want to use your personal Gmail for logging in, use:
-```bash
-## Login:
-devtester474@gmail.com
 
-## Password:
-Zz123qwe123
-```
 #### To test out Stripe payments and billing, use:
 
 ```bash

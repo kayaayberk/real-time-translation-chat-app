@@ -36,20 +36,7 @@ export default async function Home() {
               </Link>
             </div>
           </div>
-          <div className="flex gap-2 flex-col font-bold mx-auto items-center mt-10 bg-indigo-600 text-white max-w-max p-4 rounded-lg">
-            For test purposes, you can use the following credentials:
-            <span className="font-bold">
-              Login:{' '}
-              <span className="bg-gray-800 px-2 py-1 rounded-md font-normal">devtester474@gmail.com</span>
-            </span>
-            <span className="font-bold">
-              Password:{' '}
-              <span className="font-normal bg-gray-800 px-2 py-1 rounded-md">Zz123qwe123</span>
-            </span>
-            <span>Add me to a chat:{' '}
-              <span className="font-normal">kayaayberk98@gmail.com</span>
-            </span>
-          </div>
+
           <div className="mt-16 flow-root sm:mt-24">
             <div className="-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4">
               <Image
